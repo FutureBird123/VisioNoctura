@@ -8,13 +8,13 @@ public class doorOpening : MonoBehaviour
     //// Start is called before the first frame update
     //void Start()
     //{
-        
+
     //}
 
     //// Update is called once per frame
     //void Update()
     //{
-       
+
     //}
     //private void OnTriggerEnter(Collider other)
     //{
@@ -29,11 +29,16 @@ public class doorOpening : MonoBehaviour
     //}
 
     [SerializeField] float targetY = 270f; // 270° == -90°
+    float startY;
     [SerializeField] float speedDegreesPerSecond = 90f;
     [SerializeField] float stopToleranceDegrees = 0.5f;
 
     bool opening = false;
-
+    void Start()
+    {
+        startY = transform.eulerAngles.y;
+        targetY = startY + targetY; // convert to relative
+    }
     void Update()
     {
         if (!opening) return;
@@ -51,12 +56,12 @@ public class doorOpening : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             opening = true;
-            Debug.Log("Player entered the trigger - starting door open");
+            Debug.Log("Player collided - starting door open");
         }
     }
 }
