@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: f49db1442b777a7419123d997f40a4dd
+guid: 7e34fc9651579a149b2f69b873065c30
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 9591d93e7bad6834bbc15f21bfd532c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Antique_Light
+    second: {fileID: 2100000, guid: 56a82f66fd9127f40a59207663f46bf9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

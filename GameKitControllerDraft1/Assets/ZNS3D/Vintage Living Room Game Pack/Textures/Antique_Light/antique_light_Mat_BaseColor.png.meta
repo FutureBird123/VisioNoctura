@@ -1,9 +1,17 @@
 fileFormatVersion: 2
-guid: a168b04e6d7d5c147b1f9c34213353aa
+<<<<<<<< HEAD:GameKitControllerDraft1/Assets/ZNS3D/Vintage Living Room Game Pack/Demo/Demo_Scene/ReflectionProbe-0.exr.meta
+guid: 1f3dd475703138a4183d5149c6b92c44
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
+========
+guid: b51ae97f203893842af09ac44465cc27
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+>>>>>>>> b3a128af39d8aa0fb3cd048724fbec2b2898c368:GameKitControllerDraft1/Assets/ZNS3D/Vintage Living Room Game Pack/Textures/Antique_Light/antique_light_Mat_BaseColor.png.meta
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -84,6 +92,35 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
+<<<<<<<< HEAD:GameKitControllerDraft1/Assets/ZNS3D/Vintage Living Room Game Pack/Demo/Demo_Scene/ReflectionProbe-0.exr.meta
+========
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+>>>>>>>> b3a128af39d8aa0fb3cd048724fbec2b2898c368:GameKitControllerDraft1/Assets/ZNS3D/Vintage Living Room Game Pack/Textures/Antique_Light/antique_light_Mat_BaseColor.png.meta
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
