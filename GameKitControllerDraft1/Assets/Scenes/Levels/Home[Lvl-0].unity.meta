@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 5215e0e995a3a84429db6c33b5439c1a
+<<<<<<<< HEAD:GameKitControllerDraft1/Assets/Abandoned_Asylum/Asylum(Lvl-1).unity.meta
+guid: 13a34487f0495af48ac204990e2f9a46
+========
+guid: bff1b4744815de84ba60f707a0ecb6a6
+>>>>>>>> b3a128af39d8aa0fb3cd048724fbec2b2898c368:GameKitControllerDraft1/Assets/Scenes/Levels/Home[Lvl-0].unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
