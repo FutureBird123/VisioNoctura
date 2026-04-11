@@ -1,0 +1,1718 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &145478753490191951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905922993615516928}
+  - component: {fileID: 1166017027175394874}
+  - component: {fileID: 7869186563624314991}
+  - component: {fileID: 4639365489082800412}
+  - component: {fileID: 4447620777265697152}
+  - component: {fileID: 2203314308215267335}
+  m_Layer: 0
+  m_Name: leftDoorMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &905922993615516928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145478753490191951}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.75, y: 0, z: -0}
+  m_LocalScale: {x: 1.5, y: 3, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1488747723989261590}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1166017027175394874
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145478753490191951}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &7869186563624314991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145478753490191951}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &4639365489082800412
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145478753490191951}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ecfeb83b15f5b96418c15402f088dd99, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &4447620777265697152
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145478753490191951}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!114 &2203314308215267335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145478753490191951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 571b463d360e31943bec101ce5d5ad1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentGameObject: {fileID: 8648296010878642295}
+  parentAssigned: 0
+--- !u!1 &286581264939896534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1488747723989261590}
+  m_Layer: 0
+  m_Name: leftDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1488747723989261590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286581264939896534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 905922993615516928}
+  - {fileID: 4304359197910391882}
+  m_Father: {fileID: 3219284680466172154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &741530165603652176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4741262215341024846}
+  m_Layer: 0
+  m_Name: rightDoorFinalPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4741262215341024846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741530165603652176}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.62251467, z: 0, w: 0.7826081}
+  m_LocalPosition: {x: 1.5, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3219284680466172154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1008684798560852679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5163372830329594583}
+  - component: {fileID: 8302324043617006457}
+  - component: {fileID: 2109810913744154876}
+  - component: {fileID: 4985885353051762091}
+  - component: {fileID: 5652401092084606074}
+  m_Layer: 2
+  m_Name: Interaction Message
+  m_TagString: device
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5163372830329594583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008684798560852679}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6433255500379809004}
+  m_Father: {fileID: 3219284680466172154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8302324043617006457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008684798560852679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c329b480ff82643b85852ec18ffcfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: What a weird door. Better find some way to open it.
+  usingDevice: 0
+  tagToDetect:
+  - Player
+  pausePlayerWhileReading: 1
+  pressSecondTimeToStopReading: 1
+  showMessageTime: 0
+  moveCameraToPosition: 1
+  messageRemoved: 0
+  interactionUsed: 0
+  callEventOnInteraction: 0
+  callEventOnEveryInteraction: 0
+  eventOnInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+  eventOnEndInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+  mainCollider: {fileID: 2109810913744154876}
+  cameraMovementManager: {fileID: 0}
+--- !u!135 &2109810913744154876
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008684798560852679}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.76
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4985885353051762091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008684798560852679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe7bfbecac2ee4895bd133d0b782df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: Locked Door
+  deviceAction: Check Door
+  useMultipleInteraction: 0
+  multipleInteractionNameList: []
+  secondaryDeviceAction: 
+  reloadDeviceActionOnPress: 0
+  hideIconOnPress: 0
+  disableIconOnPress: 0
+  showIcon: 1
+  showTouchIconButton: 1
+  hideIconOnUseDevice: 0
+  showIconOnStopUseDevice: 0
+  useTransformForStringAction: 0
+  transformForStringAction: {fileID: 0}
+  useSeparatedTransformForEveryView: 0
+  transformForThirdPerson: {fileID: 0}
+  transformForFirstPerson: {fileID: 0}
+  useLocalOffset: 1
+  actionOffset: 1
+  setUsingDeviceState: 0
+  setTextFontSizeActive: 0
+  textFontSize: 17
+  iconEnabled: 1
+  useRaycastToDetectDeviceParts: 0
+  usingDevice: 0
+  useCustomMinDistanceToUseDevice: 0
+  customMinDistanceToUseDevice: 0
+  useCustomMinAngleToUse: 0
+  customMinAngleToUseDevice: 0
+  useRelativeDirectionBetweenPlayerAndObject: 0
+  useCustomIconButtonInfo: 0
+  customIconButtonInfoName: 
+  ignoreUseOnlyDeviceIfVisibleOnCamera: 1
+  useCustomDeviceTransformPosition: 0
+  customDeviceTransformPosition: {fileID: 0}
+  useFixedDeviceIconPosition: 0
+  checkIfObstacleBetweenDeviceAndPlayer: 0
+  showIconTexture: 0
+  iconTexture: {fileID: 0}
+  useObjectDescription: 0
+  objectDescription: 
+  descriptionFontSize: 14
+  showObjectAmount: 0
+  objectAmount: 0
+  useHoldInteractionButton: 0
+  holdInteractionButtonDuration: 0
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &5652401092084606074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008684798560852679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a8b31f995e2034892d0ff2804df26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraMovementActive: 1
+  cameraPosition: {fileID: 4298384123368868668}
+  smoothCameraMovement: 0
+  useFixedLerpMovement: 1
+  fixedLerpMovementSpeed: 2
+  cameraMovementSpeedThirdPerson: 1
+  cameraMovementSpeedFirstPerson: 0.2
+  secondMoveCameraToDevice: 0
+  unlockCursor: 1
+  ignoreHideCursorOnClick: 0
+  setNewMouseCursorControllerSpeed: 0
+  newMouseCursroControllerSpeed: 0
+  disablePlayerMeshGameObject: 1
+  enablePlayerMeshGameObjectIfFirstPersonActive: 0
+  disableWeaponsCamera: 1
+  keepWeaponsIfCarrying: 0
+  drawWeaponsIfPreviouslyCarrying: 0
+  keepOnlyIfPlayerIsOnFirstPerson: 0
+  disableWeaponsDirectlyOnStart: 0
+  carryWeaponOnLowerPositionActive: 0
+  setPlayerCameraRotationOnExit: 0
+  playerPivotTransformThirdPerson: {fileID: 0}
+  playerCameraTransformThirdPerson: {fileID: 0}
+  playerPivotTransformFirstPerson: {fileID: 0}
+  playerCameraTransformFirstPerson: {fileID: 0}
+  alignPlayerWithCameraPositionOnStartUseDevice: 0
+  alignPlayerWithCameraPositionOnStopUseDevice: 0
+  alignPlayerWithCameraRotationOnStartUseDevice: 0
+  alignPlayerWithCameraRotationOnStopUseDevice: 0
+  customAlignPlayerTransform: {fileID: 0}
+  resetPlayerCameraDirection: 0
+  disableSecondaryPlayerHUD: 1
+  disableAllPlayerHUD: 0
+  disableTouchControls: 0
+  disableInteractionTouchButtonOnUsingDevice: 0
+  showGizmo: 0
+  gizmoRadius: 0.1
+  gizmoLabelColor: {r: 0, g: 0, b: 0, a: 1}
+  gizmoArrowLength: 0.3
+  gizmoArrowLineLength: 0.5
+  gizmoArrowAngle: 20
+  gizmoArrowColor: {r: 1, g: 1, b: 1, a: 1}
+  ignoreMoveCameraFunctionEnabled: 0
+--- !u!1 &2283772581337701288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4094255160107060232}
+  m_Layer: 0
+  m_Name: Scorch Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4094255160107060232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283772581337701288}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7427063453737675384}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2332877080138860687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3219284680466172154}
+  - component: {fileID: 7102723243021847109}
+  - component: {fileID: 1999787404266187606}
+  - component: {fileID: 7846276592745022790}
+  - component: {fileID: 9095553289608867212}
+  - component: {fileID: 4486072120885913064}
+  - component: {fileID: 5986667080477214686}
+  m_Layer: 2
+  m_Name: Interaction Button Doors (Locked With Inventory Key)
+  m_TagString: device
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3219284680466172154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332877080138860687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.593, y: 0.977, z: 0.023}
+  m_LocalScale: {x: 0.6, y: 0.62, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1488747723989261590}
+  - {fileID: 7427063453737675384}
+  - {fileID: 5284672662760650087}
+  - {fileID: 4741262215341024846}
+  - {fileID: 5163372830329594583}
+  - {fileID: 2448223620722558654}
+  - {fileID: 8095747187808051516}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7102723243021847109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332877080138860687}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 8, y: 5, z: 6}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1999787404266187606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332877080138860687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5630ff8dfbef46343b625e10c6f5d5ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorsInfo:
+  - doorMesh: {fileID: 286581264939896534}
+    openedPosition: {fileID: 0}
+    openedPositionFound: 0
+    rotatedPosition: {fileID: 2767414352658640783}
+    rotatedPositionFound: 0
+    originalPosition: {x: 0, y: 0, z: 0}
+    originalRotation: {x: 0, y: 0, z: 0, w: 0}
+    currentTargetPosition: {x: 0, y: 0, z: 0}
+    currentTargetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - doorMesh: {fileID: 5630285494937688496}
+    openedPosition: {fileID: 0}
+    openedPositionFound: 0
+    rotatedPosition: {fileID: 741530165603652176}
+    rotatedPositionFound: 0
+    originalPosition: {x: 0, y: 0, z: 0}
+    originalRotation: {x: 0, y: 0, z: 0, w: 0}
+    currentTargetPosition: {x: 0, y: 0, z: 0}
+    currentTargetRotation: {x: 0, y: 0, z: 0, w: 0}
+  tagListToOpen:
+  - Player
+  movementType: 1
+  openSound: {fileID: 8300000, guid: 4a3654732914947459d61f583d300bb1, type: 3}
+  openSoundAudioElement:
+    audioPlayMethod: 1
+    audioEventName: 
+    clip: {fileID: 0}
+    audioSourceName: 
+    audioSource: {fileID: 0}
+  closeSound: {fileID: 8300000, guid: 59cb02a164f7c65478f68bc875b202ab, type: 3}
+  closeSoundAudioElement:
+    audioPlayMethod: 1
+    audioEventName: 
+    clip: {fileID: 0}
+    audioSourceName: 
+    audioSource: {fileID: 0}
+  doorTypeInfo: 1
+  doorState: 0
+  locked: 1
+  openDoorWhenUnlocked: 1
+  useSoundOnUnlock: 0
+  unlockSound: {fileID: 0}
+  unlockSoundAudioElement:
+    audioPlayMethod: 1
+    audioEventName: 
+    clip: {fileID: 0}
+    audioSourceName: 
+    audioSource: {fileID: 0}
+  unlockAudioSource: {fileID: 0}
+  openSpeed: 10
+  hologram: {fileID: 0}
+  closeAfterTime: 1
+  timeToClose: 2
+  showGizmo: 0
+  gizmoArrowLength: 1
+  gizmoArrowLineLength: 2.5
+  gizmoArrowAngle: 20
+  gizmoArrowColor: {r: 1, g: 1, b: 1, a: 1}
+  rotateInBothDirections: 1
+  animationName: 
+  animationSpeed: 1
+  closeDoorOnTriggerExit: 1
+  currentPlayerTransform: {fileID: 0}
+  useEventOnOpenAndClose: 1
+  openEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  closeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4486072120885913064}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: reloadDeviceStringActionOnPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  useEventOnUnlockDoor: 0
+  evenOnUnlockDoor:
+    m_PersistentCalls:
+      m_Calls: []
+  useEventOnLockDoor: 0
+  eventOnLockDoor:
+    m_PersistentCalls:
+      m_Calls: []
+  useEventOnDoorFound: 0
+  eventOnLockedDoorFound:
+    m_PersistentCalls:
+      m_Calls: []
+  eventOnUnlockedDoorFound:
+    m_PersistentCalls:
+      m_Calls: []
+  soundSource: {fileID: 0}
+  mapObjectInformationManager: {fileID: 0}
+  mainAnimation: {fileID: 0}
+  hologramDoorManager: {fileID: 0}
+  deviceStringActionManager: {fileID: 0}
+  setMapIconsOnDoor: 1
+  moving: 0
+--- !u!82 &7846276592745022790
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332877080138860687}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 5.108284
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &9095553289608867212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332877080138860687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe7bfbecac2ee4895bd133d0b782df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: Door
+  deviceAction: Open
+  useMultipleInteraction: 0
+  multipleInteractionNameList: []
+  secondaryDeviceAction: Close
+  reloadDeviceActionOnPress: 1
+  hideIconOnPress: 0
+  disableIconOnPress: 0
+  showIcon: 1
+  showTouchIconButton: 1
+  hideIconOnUseDevice: 0
+  showIconOnStopUseDevice: 0
+  useTransformForStringAction: 0
+  transformForStringAction: {fileID: 0}
+  useSeparatedTransformForEveryView: 0
+  transformForThirdPerson: {fileID: 0}
+  transformForFirstPerson: {fileID: 0}
+  useLocalOffset: 1
+  actionOffset: 1
+  setUsingDeviceState: 0
+  setTextFontSizeActive: 0
+  textFontSize: 17
+  iconEnabled: 1
+  useRaycastToDetectDeviceParts: 0
+  usingDevice: 0
+  useCustomMinDistanceToUseDevice: 0
+  customMinDistanceToUseDevice: 0
+  useCustomMinAngleToUse: 0
+  customMinAngleToUseDevice: 0
+  useRelativeDirectionBetweenPlayerAndObject: 0
+  useCustomIconButtonInfo: 0
+  customIconButtonInfoName: 
+  ignoreUseOnlyDeviceIfVisibleOnCamera: 1
+  useCustomDeviceTransformPosition: 0
+  customDeviceTransformPosition: {fileID: 0}
+  useFixedDeviceIconPosition: 0
+  checkIfObstacleBetweenDeviceAndPlayer: 0
+  showIconTexture: 0
+  iconTexture: {fileID: 0}
+  useObjectDescription: 0
+  objectDescription: 
+  descriptionFontSize: 14
+  showObjectAmount: 0
+  objectAmount: 0
+  useHoldInteractionButton: 0
+  holdInteractionButtonDuration: 0
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &4486072120885913064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332877080138860687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8030885d591eb408518d093fad5d5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOnlyForTrigger: 1
+  functionToSetPlayer: 
+  activateDeviceOnTriggerEnter: 0
+  useFreeInteraction: 0
+  useFreeInteractionEvent: 0
+  freeInteractionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  useMoveCameraToDevice: 0
+  disableDeviceWhenStopUsing: 0
+  stopUsingDeviceWhenUnlock: 0
+  disableAndRemoveDeviceWhenUnlock: 0
+  functionToUseDevice:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1999787404266187606}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: changeDoorsStateByButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  usingDevice: 0
+  unlockFunctionCall:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  lockFunctionCall:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  currentPlayer: {fileID: 0}
+  activateEventOnTriggerStay: 0
+  triggerStayEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  eventOnTriggerStayRate: 0
+  activateEventOnTriggerEnter: 0
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  activateEventOnTriggerExit: 0
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  sendPlayerOnTriggerEnter: 0
+  eventToSendPlayerOnTriggerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  sendPlayerOnTriggerExit: 0
+  eventToSendPlayerOnTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+  activateEventIfUnableToUseDevice: 0
+  unableToUseDeviceEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  sendCurrentPlayerOnEvent: 0
+  setCurrentPlayerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  useEventOnStartUsingDevice: 0
+  useEventOnStopUsingDevice: 0
+  eventOnStartUsingDevice:
+    m_PersistentCalls:
+      m_Calls: []
+  eventOnStopUsingDevice:
+    m_PersistentCalls:
+      m_Calls: []
+  deviceCanBeUsed: 1
+  playerInside: 0
+  cameraMovementManager: {fileID: 0}
+  deviceMovementManager: {fileID: 0}
+  disableDeviceInteractionAfterUsingOnce: 0
+--- !u!114 &5986667080477214686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332877080138860687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d4c2c8aae3ca649a0b7c20bf5d8aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapObjectName: 
+  description: It is a regular door
+  mapObject: {fileID: 0}
+  offsetRadius: 0
+  showOffScreenIcon: 1
+  showMapWindowIcon: 1
+  showDistance: 1
+  showDistanceOffScreen: 0
+  isActivate: 1
+  visibleInAllBuildings: 0
+  visibleInAllFloors: 0
+  calculateFloorAtStart: 0
+  useCloseDistance: 1
+  triggerRadius: 5
+  triggerColor: {r: 0, g: 0, b: 1, a: 1}
+  gizmoLabelOffset: 0
+  gizmoLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  typeIndex: 3
+  typeName: Locked Door
+  typeNameList:
+  - Enemy
+  - Friend
+  - Objective
+  - Locked Door
+  - Mark
+  - Recharge Station
+  - Unlocked Door
+  - Security Camera
+  - Chest
+  - Vehicle
+  - Elevator
+  - Elevator Button
+  - Beacon
+  - Path Element
+  - Save Station
+  - Locked Chest
+  - Grenade
+  - Inventory Bank
+  - Player
+  - Unchecked Door
+  floorIndex: 1
+  currentFloor: Friend
+  floorList:
+  - Basement
+  - 1st Floor
+  - 2nd Floor
+  extraIconSizeOnMap: 0
+  followCameraRotation: 0
+  followObjectRotation: 0
+  offset: {x: 0, y: 0, z: 0}
+  mapManager: {fileID: 0}
+  useCustomObjectiveColor: 0
+  objectiveColor: {r: 0, g: 0, b: 0, a: 0}
+  removeCustomObjectiveColor: 0
+  objectiveOffset: 0
+  removeComponentWhenObjectiveReached: 1
+  disableWhenPlayerHasReached: 0
+  buildingIndex: 1
+  buildingName: 
+  buildingList:
+  - Mansion Exterior
+  - Mansion
+  - Courtyard
+  - Underground
+  - Guardhouse
+  - Labs
+  currentBuilding: Friend
+  belongToMapPart: 1
+  mapPartName: 001 (Main Hall)
+  mapPartList:
+  - 001 (Main Hall)
+  - 002 (Main Hall Stairs)
+  - 003 (Dinning Room)
+  - 004 (Tea Room)
+  - 005 (Elevator Room)
+  - 006 (North West Corridor)
+  - 007
+  - 008 (Safe Room)
+  - 009
+  - 010 (Vulture Head Corridor)
+  - 011 (Piano Room)
+  - 012 (Lion Head Room)
+  - 013 (Stairs)
+  - 014 (Plant Room)
+  - 015 (Elevator Lift Ground Floor)
+  - 016 (Small Gallery)
+  - 017 (Ware House)
+  - 018 (L-Shapped Hallway)
+  - 019 (Grave Room)
+  - 020
+  - 021 (Costume Room)
+  - 022
+  - 023 (North East Corridor 1)
+  - 024 (Shotgun Room)
+  - 025 (Bathroom)
+  - 026 (Gallery-Crow Room)
+  - 027 (Safe Room)
+  - 028 (North East Corridor 2)
+  - 029 (Study)
+  - 030 (Stairs To 2nd Floor)
+  - 031 (Boiler)
+  - 032 (Outside Corridor)
+  - 033 (Shed)
+  - 034 (Cieling Room)
+  - 035 (Stairs)
+  - 036 (Main Hall Stairs)
+  - 037 (Main Hall Stairs)
+  - 038 (Main Hall Stairs)
+  - 039 (Stairs)
+  - 040 (Elevator Room)
+  - 041 (Main Hall Stairs)
+  - 042 (Stairs)
+  mapPartIndex: 0
+  mapCreatorManager: {fileID: 0}
+  useCustomValues: 0
+  ID: 15
+  callEventWhenPointReached: 0
+  pointReachedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  useEventsOnChangeFloor: 0
+  useEventOnEnabledFloor: 0
+  evenOnEnabledFloor:
+    m_PersistentCalls:
+      m_Calls: []
+  useEventOnDisabledFloor: 0
+  evenOnDisabledFloor:
+    m_PersistentCalls:
+      m_Calls: []
+  canChangeBuildingAndFloor: 0
+  activateAtStart: 1
+  offsetGizmoColor: {r: 0, g: 0, b: 0, a: 0}
+  offsetShowGizmo: 0
+  showGizmo: 0
+  currentMapObjectInfo:
+    name: 
+    typeName: 
+    mapObject: {fileID: 0}
+    mapIcon: {fileID: 0}
+    buildingIndex: 0
+    floorIndex: 0
+    floorNumber: 0
+    mapPartIndex: 0
+    offset: {x: 0, y: 0, z: 0}
+    isActivated: 0
+    textName: {fileID: 0}
+    ID: 0
+    mapPartOwnerFound: 0
+    canBeShowTemporaly: 0
+    visibleAllFloors: 0
+    hasFloorAssigned: 0
+    visibleAllBuildings: 0
+    hasMapObjectInformation: 0
+    useEventsOnChangeFloor: 0
+    mapObjectInformationManager: {fileID: 0}
+    extraIconSizeOnMap: 0
+    followCameraRotation: 0
+    followObjectRotation: 0
+    compassIcon:
+      Name: 
+      iconGameObject: {fileID: 0}
+      iconTransform: {fileID: 0}
+      iconRectTransform: {fileID: 0}
+      iconTargetTransform: {fileID: 0}
+      verticalOffset: 0
+      lastIconAngle: 0
+      useCompassClamp: 0
+      currentCompassTargetRotation: 0
+      firstValueAssigned: 0
+  setCustomCompassSettings: 0
+  useCompassIcon: 0
+  compassIconPrefab: {fileID: 0}
+  verticalOffset: 0
+  mapObjectAssigned: 0
+  mainScreenObjectivesManagerName: Screen Objectives Manager
+--- !u!1 &2767414352658640783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5284672662760650087}
+  m_Layer: 0
+  m_Name: leftDoorFinalPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5284672662760650087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2767414352658640783}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.6237352, z: 0, w: 0.78163576}
+  m_LocalPosition: {x: -1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3219284680466172154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3597675102989164461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8095747187808051516}
+  - component: {fileID: 5010613382102231993}
+  - component: {fileID: 7285609557390606740}
+  - component: {fileID: 2864633640362382908}
+  m_Layer: 2
+  m_Name: Use Inventory Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8095747187808051516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597675102989164461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3219284680466172154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5010613382102231993
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597675102989164461}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.29
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7285609557390606740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597675102989164461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c02942f508bf804694555d18b898d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canBeReUsed: 0
+  useInventoryType: 0
+  useObjectsOneByOneUsingButton: 1
+  inventoryObjectAction: Use a key.
+  objectUsedMessage: The door is opened now.
+  useCustomObjectNotFoundMessage: 0
+  objectNotFoundMessage: 
+  enableObjectWhenActivate: 0
+  objectToEnable: {fileID: 0}
+  useAnimation: 0
+  objectWithAnimation: {fileID: 0}
+  animationName: 
+  inventoryObjectNeededList:
+  - Name: Key
+    objectNeeded: {fileID: 124612, guid: 73863e7e39f7788498f4ad2b0768c8b8, type: 3}
+    useObjectNeededName: 0
+    objectNeededName: 
+    useObjectAction: 0
+    objectAction: 
+    amountNeeded: 1
+    objectUsed: 0
+    amountOfObjectsUsed: 0
+    objectUsedMessage: Key used.
+    useEventOnObjectsPlaced: 0
+    eventOnObjectsPlaced:
+      m_PersistentCalls:
+        m_Calls: []
+    useObjectSound: 0
+    usedObjectSound: {fileID: 0}
+    usedObjectAudioElement:
+      audioPlayMethod: 1
+      audioEventName: 
+      clip: {fileID: 0}
+      audioSourceName: 
+      audioSource: {fileID: 0}
+    inventoryObjectNeededList: []
+  unlockFunctionCall:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7102723243021847109}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 5010613382102231993}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1999787404266187606}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: unlockDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8302324043617006457}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: removeMessage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4985885353051762091}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: disableIcon
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821978103090807483}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: disableState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  useUnlockEventFromLoadingGame: 0
+  unlockEventFromLoadingGame:
+    m_PersistentCalls:
+      m_Calls: []
+  disableObjectActionAfterUse: 1
+  objectUsed: 0
+  numberOfObjectsUsed: 0
+  numberOfObjectsNeeded: 0
+  currentNumberOfObjectsNeeded: 0
+  checkPlayerInventoryWhileDriving: 0
+  tagToConfigure: device
+  playerTag: Player
+  vehicleTag: vehicle
+  canUseAndUseInventoryPickupsOnTriggerEnabled: 1
+  removeInventoryPickupObjectOnTrigger: 1
+  openPlayerInventoryMenu: 0
+  setNewInventoryPanel: 0
+  defaultInventoryPanelName: Default
+  newInventoryPanelName: Inventory On Side
+  playerInventoryMenuOpened: 0
+  useEventOnUnlockWithDelay: 0
+  eventOnUnlockWithDelay:
+    m_PersistentCalls:
+      m_Calls: []
+  delayToActivateEvent: 0
+  deviceStringActionManager: {fileID: 0}
+  mainAudioSource: {fileID: 0}
+  mainCollider: {fileID: 0}
+  showDebugInfo: 0
+  counter: 0
+--- !u!114 &2864633640362382908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597675102989164461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe7bfbecac2ee4895bd133d0b782df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: Door
+  deviceAction: Open
+  useMultipleInteraction: 0
+  multipleInteractionNameList: []
+  secondaryDeviceAction: Close
+  reloadDeviceActionOnPress: 1
+  hideIconOnPress: 0
+  disableIconOnPress: 0
+  showIcon: 1
+  showTouchIconButton: 1
+  hideIconOnUseDevice: 0
+  showIconOnStopUseDevice: 0
+  useTransformForStringAction: 0
+  transformForStringAction: {fileID: 0}
+  useSeparatedTransformForEveryView: 0
+  transformForThirdPerson: {fileID: 0}
+  transformForFirstPerson: {fileID: 0}
+  useLocalOffset: 1
+  actionOffset: 1
+  setUsingDeviceState: 0
+  setTextFontSizeActive: 0
+  textFontSize: 17
+  iconEnabled: 1
+  useRaycastToDetectDeviceParts: 0
+  usingDevice: 0
+  useCustomMinDistanceToUseDevice: 0
+  customMinDistanceToUseDevice: 0
+  useCustomMinAngleToUse: 0
+  customMinAngleToUseDevice: 0
+  useRelativeDirectionBetweenPlayerAndObject: 0
+  useCustomIconButtonInfo: 0
+  customIconButtonInfoName: 
+  ignoreUseOnlyDeviceIfVisibleOnCamera: 1
+  useCustomDeviceTransformPosition: 0
+  customDeviceTransformPosition: {fileID: 0}
+  useFixedDeviceIconPosition: 0
+  checkIfObstacleBetweenDeviceAndPlayer: 0
+  showIconTexture: 0
+  iconTexture: {fileID: 0}
+  useObjectDescription: 0
+  objectDescription: 
+  descriptionFontSize: 14
+  showObjectAmount: 0
+  objectAmount: 0
+  useHoldInteractionButton: 0
+  holdInteractionButtonDuration: 0
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!1 &4298384123368868668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6433255500379809004}
+  m_Layer: 2
+  m_Name: Camera Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6433255500379809004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4298384123368868668}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.010674147, y: 0.9884281, z: -0.12605944, w: 0.08369565}
+  m_LocalPosition: {x: -0, y: 0.84, z: 3.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5163372830329594583}
+  m_LocalEulerAnglesHint: {x: 14.536, y: 170.32, z: 0}
+--- !u!1 &4394880413099280453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3146008297086251207}
+  - component: {fileID: 1363833003746190364}
+  - component: {fileID: 8364447875796335755}
+  - component: {fileID: 4863499893774126357}
+  - component: {fileID: 8837515950829206036}
+  - component: {fileID: 1528959675197302063}
+  m_Layer: 0
+  m_Name: rightDoorMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3146008297086251207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394880413099280453}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.75, y: 0, z: -0}
+  m_LocalScale: {x: 1.5, y: 3, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7427063453737675384}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1363833003746190364
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394880413099280453}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &8364447875796335755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394880413099280453}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &4863499893774126357
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394880413099280453}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ecfeb83b15f5b96418c15402f088dd99, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8837515950829206036
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394880413099280453}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!114 &1528959675197302063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394880413099280453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 571b463d360e31943bec101ce5d5ad1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentGameObject: {fileID: 2283772581337701288}
+  parentAssigned: 0
+--- !u!1 &5630285494937688496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7427063453737675384}
+  m_Layer: 0
+  m_Name: rightDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7427063453737675384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5630285494937688496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3146008297086251207}
+  - {fileID: 4094255160107060232}
+  m_Father: {fileID: 3219284680466172154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8648296010878642295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4304359197910391882}
+  m_Layer: 0
+  m_Name: Scorch Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4304359197910391882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648296010878642295}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1488747723989261590}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9057280949683049704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2448223620722558654}
+  - component: {fileID: 1821978103090807483}
+  - component: {fileID: 1792811592082058096}
+  m_Layer: 2
+  m_Name: Head Track Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2448223620722558654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057280949683049704}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999976, y: 1, z: 0.99999976}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3219284680466172154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1821978103090807483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057280949683049704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7a76743726eb44bacaf1bef9ee71cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetEnabled: 1
+  positionOffset: {x: 0, y: 0, z: 0}
+  minDistanceToLook: 3.7
+  visibilityTypes: 0
+  tagsToLocate:
+  - Player
+  useCustomLayer: 0
+  customLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  storeHeadTrackFound: 0
+  headTrackFoundList: []
+  showGizmo: 1
+  gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  targetToLook: {fileID: 0}
+  mainCollider: {fileID: 0}
+--- !u!135 &1792811592082058096
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057280949683049704}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.91
+  m_Center: {x: 0, y: 0, z: 0}
